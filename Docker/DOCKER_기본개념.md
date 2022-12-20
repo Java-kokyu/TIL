@@ -7,6 +7,14 @@ docker rmi $(docker images -q)
 ```
 docker rm -f $(docker ps -aq)
 ```
+#### 도커 컨테이너 네트워크 탐색
+```
+docker network inspect bridge
+```
+#### 도커 특정 컨테이너 네트워크 상태 상세보기 
+```
+docker network ls
+```
 #### 도커 컨테이너 실시간 로그 보기 명령어
 ```
 docker logs -f [NAME OR CONTAINER ID]

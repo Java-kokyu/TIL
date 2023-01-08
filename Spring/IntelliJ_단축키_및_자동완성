@@ -1,0 +1,5 @@
+iter: 자동으로 for문 생성
+soutv: 출력값 자동 완성
+psvm: 메인 함수 자동 완성
+
+ctrl+alt+v: 리턴값 자동 생성
